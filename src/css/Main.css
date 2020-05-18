@@ -1,0 +1,29 @@
+body{
+    margin:0;
+    background-color: grey;
+}
+.navbar{
+    width: 100%;
+    margin:0;
+    padding: 0;
+}
+.navBarContent{
+    margin: 0;
+    padding: 10px;
+    text-align: right;
+    background-color: black;
+}
+.navBarContent a{
+    font-family: 'Roboto Condensed';
+    text-decoration: none;
+    color:black;
+}
+
+.navBarContent li{
+    background-color: whitesmoke;
+    display: inline;
+    margin: 0 10px;
+    padding: 0 10px;
+    border: solid white;
+    border-radius: 20px;
+}
