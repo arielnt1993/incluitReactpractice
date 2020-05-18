@@ -1,15 +1,10 @@
 import React from 'react';
 
-function click(url){
-    console.log(url);
-}
-
 function Navbar(){
     return <nav className="navbar">
         <ul className="navBarContent">
-            <li onClick={click('acerca de')}>acerca de</li>
-            <li onClick={click('mi experiencia')}>mi experiencia</li>
-            <li onClick={click('contacto')}>contacto</li>
+            <li ><a href="https://github.com/arielnt1993" target="_blank" rel="noopener noreferrer">mi experiencia</a></li>
+            <li ><a href="tel:1123624747">contacto</a></li>
         </ul>
         </nav>;
 }

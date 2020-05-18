@@ -1,7 +1,8 @@
 import React from 'react';
+import imagen from '../img/meAtrapasteWey.jpeg'
 function Square(){
-    return <div id="correForest">
-        <img src="public\img\meAtrapasteWey.jpeg"></img>
+    return <div>
+        <img src={imagen} alt="gg"></img>
     </div>;
 }
 
