@@ -27,3 +27,14 @@ body{
     border: solid white;
     border-radius: 20px;
 }
+h2{
+    text-align: center;
+}
+#correForest{
+    text-align: center;
+    
+}
+
+#correForest img {
+    height: auto;
+}

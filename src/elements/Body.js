@@ -5,6 +5,7 @@ function Body(){
     return <div>
         <Navbar/>
         <Square/>
+        <h2>este soy yo</h2>
     </div>
 }
 
