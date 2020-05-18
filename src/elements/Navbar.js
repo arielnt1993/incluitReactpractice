@@ -9,7 +9,7 @@ function Navbar(){
         <ul className="navBarContent">
             <li onClick={click('acerca de')}>acerca de</li>
             <li onClick={click('mi experiencia')}>mi experiencia</li>
-            <li>contacto</li>
+            <li onClick={click('contacto')}>contacto</li>
         </ul>
         </nav>;
 }
